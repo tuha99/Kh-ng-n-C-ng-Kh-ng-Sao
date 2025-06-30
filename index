@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nơi Đây - Lắng Nghe Và Chia Sẻ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nơi Đây</h1>
+    <p>🌿 Lắng nghe. Chia sẻ. Yêu thương.</p>
+  </header>
+
+  <nav>
+    <a href="#about">Giới thiệu</a>
+    <a href="#listen">Góc lắng nghe</a>
+    <a href="#inspire">Truyền cảm hứng</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+
+  <section id="about">
+    <h2>Về "Nơi Đây"</h2>
+    <p>Chúng tôi tạo ra Nơi Đây để lắng nghe những tâm sự không lời, để mỗi người khi yếu đuối đều có một nơi được thấu hiểu. Không cần phải mạnh mẽ một mình nữa, vì bạn không cô đơn.</p>
+  </section>
+
+  <section id="listen">
+    <h2>Góc Lắng Nghe</h2>
+    <form>
+      <label for="message">Chia sẻ tâm sự (ẩn danh nếu muốn):</label><br>
+      <textarea id="message" name="message" rows="6" placeholder="Viết điều bạn muốn chia sẻ..."></textarea><br>
+      <button type="submit">Gửi đi</button>
+    </form>
+  </section>
+
+  <section id="inspire">
+    <h2>Hộp Truyền Cảm Hứng</h2>
+    <blockquote>
+      “Dù ngày mai ra sao, hôm nay bạn vẫn đủ tốt để được yêu thương.” 🌼
+    </blockquote>
+    <p>🌸 Bạn có thể <a href="#">rút một lời nhắn ngẫu nhiên</a> từ người lạ tốt bụng.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Liên hệ & Hỗ trợ</h2>
+    <p>📞 Tổng đài tâm sự (10h–22h): 1900 1234</p>
+    <p>📩 Email: noiday@langnghe.org</p>
+    <p>📷 Instagram: <a href="https://instagram.com/noiday" target="_blank">@noiday</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nơi Đây. Chúng ta cùng nhau chữa lành.</p>
+  </footer>
+</body>
+</html>
